@@ -1,0 +1,42 @@
+config:
+  target: https://playwright.dev/
+  # Enable the Playwright engine:
+  engines:
+    playwright:
+      launchOptions:
+        headless: false
+        extendedMetrics: true
+        showAllPageMetrics: true
+        aggregateByName: true
+  plugins:
+    ensure: {}
+    # apdex: {}
+    metrics-by-endpoint:
+      useOnlyRequestNames: true
+      metricsNamespace: "latency_metrics"
+  ensure:
+    thresholds:
+      # p99 of response time must be <250:
+      - "http.response_time.p99": 250
+      # p95 of response time must be <100:
+      - "http.response_time.p95": 100
+
+  processor: ./loadtest1.js
+  phases:
+    - duration: 5
+      arrivalRate: 1
+      name: Warm up
+    # - duration: 5
+    #   arrivalRate: 2
+    #   rampTo: 4
+    #   name: Ramp up load
+    - duration: 5
+      arrivalRate: 3
+      name: Sustained load
+scenarios:
+  - engine: playwright
+    flowFunction: "loadtest1run"
+    flow: []
+  - flow:
+      - get:
+          url: "/community/welcome"

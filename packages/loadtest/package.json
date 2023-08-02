@@ -1,0 +1,23 @@
+{
+  "name": "loadtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "artillery run --output reports/tests.json loadtest1.yml",
+    "report": "artillery report",
+    "quick": "artillery quick --output reports/quick.json https://playwright.dev --count 10 --num 10",
+    "build": ""
+  },
+  "author": "ewi",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "~2.0.0-30",
+    "artillery-engine-playwright": "~0.2.1",
+    "transpiler": "workspace:*",
+    "@types/node": "~18.15.3",
+    "typescript": "~5.0.2",
+    "artillery-plugin-metrics-by-endpoint": "~1.2.0",
+    "artillery-plugin-apdex": "~1.0.0"
+  }
+}

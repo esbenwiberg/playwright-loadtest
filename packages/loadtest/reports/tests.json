@@ -1,0 +1,773 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 12,
+      "vusers.created": 20,
+      "browser.http_requests": 725,
+      "vusers.failed": 0,
+      "vusers.completed": 20,
+      "vusers.created_by_name.1": 8,
+      "http.requests": 8,
+      "http.codes.200": 8,
+      "http.responses": 8,
+      "http.downloaded_bytes": 42104,
+      "latency_metrics.//community/welcome.codes.200": 8
+    },
+    "rates": {
+      "http.request_rate": 0
+    },
+    "firstCounterAt": 1690964678515,
+    "firstHistogramAt": 1690964679813,
+    "lastCounterAt": 1690964701878,
+    "lastHistogramAt": 1690964701878,
+    "firstMetricAt": 1690964678515,
+    "lastMetricAt": 1690964701878,
+    "period": 1690964700000,
+    "summaries": {
+      "browser.page.FCP.https://playwright.dev/": {
+        "min": 158.2,
+        "max": 1397.1,
+        "count": 14,
+        "p50": 361.5,
+        "median": 361.5,
+        "p75": 441.5,
+        "p90": 561.2,
+        "p95": 671.9,
+        "p99": 671.9,
+        "p999": 671.9
+      },
+      "browser.page.TTFB.https://playwright.dev/": {
+        "min": 7.6,
+        "max": 112.1,
+        "count": 24,
+        "p50": 68.7,
+        "median": 68.7,
+        "p75": 80.6,
+        "p90": 90.9,
+        "p95": 90.9,
+        "p99": 96.6,
+        "p999": 96.6
+      },
+      "browser.page.LCP.https://playwright.dev/": {
+        "min": 158.2,
+        "max": 1397.1,
+        "count": 14,
+        "p50": 361.5,
+        "median": 361.5,
+        "p75": 441.5,
+        "p90": 561.2,
+        "p95": 671.9,
+        "p99": 671.9,
+        "p999": 671.9
+      },
+      "browser.page.CLS.https://playwright.dev/": {
+        "min": 0,
+        "max": 0,
+        "count": 6,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "browser.page.FID.https://playwright.dev/docs/intro": {
+        "min": 10.1,
+        "max": 37.3,
+        "count": 8,
+        "p50": 16.6,
+        "median": 16.6,
+        "p75": 19.5,
+        "p90": 25.3,
+        "p95": 25.3,
+        "p99": 25.3,
+        "p999": 25.3
+      },
+      "browser.page.CLS.https://playwright.dev/docs/intro": {
+        "min": 0,
+        "max": 0,
+        "count": 8,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "vusers.session_length": {
+        "min": 34.2,
+        "max": 14654,
+        "count": 20,
+        "p50": 1863.5,
+        "median": 1863.5,
+        "p75": 12968.3,
+        "p90": 14332.3,
+        "p95": 14621.8,
+        "p99": 14621.8,
+        "p999": 14621.8
+      },
+      "http.response_time": {
+        "min": 7,
+        "max": 112,
+        "count": 8,
+        "p50": 10.1,
+        "median": 10.1,
+        "p75": 10.1,
+        "p90": 10.1,
+        "p95": 10.1,
+        "p99": 10.1,
+        "p999": 10.1
+      },
+      "latency_metrics.response_time.//community/welcome": {
+        "min": 7,
+        "max": 112,
+        "count": 8,
+        "p50": 10.1,
+        "median": 10.1,
+        "p75": 10.1,
+        "p90": 10.1,
+        "p95": 10.1,
+        "p99": 10.1,
+        "p999": 10.1
+      }
+    },
+    "histograms": {
+      "browser.page.FCP.https://playwright.dev/": {
+        "min": 158.2,
+        "max": 1397.1,
+        "count": 14,
+        "p50": 361.5,
+        "median": 361.5,
+        "p75": 441.5,
+        "p90": 561.2,
+        "p95": 671.9,
+        "p99": 671.9,
+        "p999": 671.9
+      },
+      "browser.page.TTFB.https://playwright.dev/": {
+        "min": 7.6,
+        "max": 112.1,
+        "count": 24,
+        "p50": 68.7,
+        "median": 68.7,
+        "p75": 80.6,
+        "p90": 90.9,
+        "p95": 90.9,
+        "p99": 96.6,
+        "p999": 96.6
+      },
+      "browser.page.LCP.https://playwright.dev/": {
+        "min": 158.2,
+        "max": 1397.1,
+        "count": 14,
+        "p50": 361.5,
+        "median": 361.5,
+        "p75": 441.5,
+        "p90": 561.2,
+        "p95": 671.9,
+        "p99": 671.9,
+        "p999": 671.9
+      },
+      "browser.page.CLS.https://playwright.dev/": {
+        "min": 0,
+        "max": 0,
+        "count": 6,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "browser.page.FID.https://playwright.dev/docs/intro": {
+        "min": 10.1,
+        "max": 37.3,
+        "count": 8,
+        "p50": 16.6,
+        "median": 16.6,
+        "p75": 19.5,
+        "p90": 25.3,
+        "p95": 25.3,
+        "p99": 25.3,
+        "p999": 25.3
+      },
+      "browser.page.CLS.https://playwright.dev/docs/intro": {
+        "min": 0,
+        "max": 0,
+        "count": 8,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "vusers.session_length": {
+        "min": 34.2,
+        "max": 14654,
+        "count": 20,
+        "p50": 1863.5,
+        "median": 1863.5,
+        "p75": 12968.3,
+        "p90": 14332.3,
+        "p95": 14621.8,
+        "p99": 14621.8,
+        "p999": 14621.8
+      },
+      "http.response_time": {
+        "min": 7,
+        "max": 112,
+        "count": 8,
+        "p50": 10.1,
+        "median": 10.1,
+        "p75": 10.1,
+        "p90": 10.1,
+        "p95": 10.1,
+        "p99": 10.1,
+        "p999": 10.1
+      },
+      "latency_metrics.response_time.//community/welcome": {
+        "min": 7,
+        "max": 112,
+        "count": 8,
+        "p50": 10.1,
+        "median": 10.1,
+        "p75": 10.1,
+        "p90": 10.1,
+        "p95": 10.1,
+        "p99": 10.1,
+        "p999": 10.1
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 2,
+        "vusers.created": 2,
+        "browser.http_requests": 35
+      },
+      "rates": {},
+      "firstCounterAt": 1690964678515,
+      "firstHistogramAt": 1690964679813,
+      "lastCounterAt": 1690964679992,
+      "lastHistogramAt": 1690964679971,
+      "firstMetricAt": 1690964678515,
+      "lastMetricAt": 1690964679992,
+      "period": "1690964670000",
+      "summaries": {
+        "browser.page.FCP.https://playwright.dev/": {
+          "min": 390.1,
+          "max": 390.1,
+          "count": 1,
+          "p50": 391.6,
+          "median": 391.6,
+          "p75": 391.6,
+          "p90": 391.6,
+          "p95": 391.6,
+          "p99": 391.6,
+          "p999": 391.6
+        },
+        "browser.page.TTFB.https://playwright.dev/": {
+          "min": 76.8,
+          "max": 76.8,
+          "count": 1,
+          "p50": 77.5,
+          "median": 77.5,
+          "p75": 77.5,
+          "p90": 77.5,
+          "p95": 77.5,
+          "p99": 77.5,
+          "p999": 77.5
+        },
+        "browser.page.LCP.https://playwright.dev/": {
+          "min": 390.1,
+          "max": 390.1,
+          "count": 1,
+          "p50": 391.6,
+          "median": 391.6,
+          "p75": 391.6,
+          "p90": 391.6,
+          "p95": 391.6,
+          "p99": 391.6,
+          "p999": 391.6
+        },
+        "browser.page.CLS.https://playwright.dev/": {
+          "min": 0,
+          "max": 0,
+          "count": 1,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        }
+      },
+      "histograms": {
+        "browser.page.FCP.https://playwright.dev/": {
+          "min": 390.1,
+          "max": 390.1,
+          "count": 1,
+          "p50": 391.6,
+          "median": 391.6,
+          "p75": 391.6,
+          "p90": 391.6,
+          "p95": 391.6,
+          "p99": 391.6,
+          "p999": 391.6
+        },
+        "browser.page.TTFB.https://playwright.dev/": {
+          "min": 76.8,
+          "max": 76.8,
+          "count": 1,
+          "p50": 77.5,
+          "median": 77.5,
+          "p75": 77.5,
+          "p90": 77.5,
+          "p95": 77.5,
+          "p99": 77.5,
+          "p999": 77.5
+        },
+        "browser.page.LCP.https://playwright.dev/": {
+          "min": 390.1,
+          "max": 390.1,
+          "count": 1,
+          "p50": 391.6,
+          "median": 391.6,
+          "p75": 391.6,
+          "p90": 391.6,
+          "p95": 391.6,
+          "p99": 391.6,
+          "p999": 391.6
+        },
+        "browser.page.CLS.https://playwright.dev/": {
+          "min": 0,
+          "max": 0,
+          "count": 1,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        }
+      }
+    },
+    {
+      "counters": {
+        "browser.http_requests": 157,
+        "vusers.created_by_name.0": 10,
+        "vusers.created": 18,
+        "vusers.failed": 0,
+        "vusers.completed": 11,
+        "vusers.created_by_name.1": 8,
+        "http.requests": 8,
+        "http.codes.200": 8,
+        "http.responses": 8,
+        "http.downloaded_bytes": 42104,
+        "latency_metrics.//community/welcome.codes.200": 8
+      },
+      "rates": {
+        "http.request_rate": 3
+      },
+      "firstCounterAt": 1690964680056,
+      "firstHistogramAt": 1690964680131,
+      "lastCounterAt": 1690964689495,
+      "lastHistogramAt": 1690964689495,
+      "firstMetricAt": 1690964680056,
+      "lastMetricAt": 1690964689495,
+      "period": "1690964680000",
+      "http.request_rate": null,
+      "summaries": {
+        "browser.page.TTFB.https://playwright.dev/": {
+          "min": 8.4,
+          "max": 80,
+          "count": 5,
+          "p50": 8.4,
+          "median": 8.4,
+          "p75": 74.4,
+          "p90": 74.4,
+          "p95": 74.4,
+          "p99": 74.4,
+          "p999": 74.4
+        },
+        "browser.page.FCP.https://playwright.dev/": {
+          "min": 158.2,
+          "max": 158.2,
+          "count": 1,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "browser.page.LCP.https://playwright.dev/": {
+          "min": 158.2,
+          "max": 158.2,
+          "count": 1,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "browser.page.FID.https://playwright.dev/docs/intro": {
+          "min": 10.7,
+          "max": 10.7,
+          "count": 1,
+          "p50": 10.7,
+          "median": 10.7,
+          "p75": 10.7,
+          "p90": 10.7,
+          "p95": 10.7,
+          "p99": 10.7,
+          "p999": 10.7
+        },
+        "browser.page.CLS.https://playwright.dev/docs/intro": {
+          "min": 0,
+          "max": 0,
+          "count": 1,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        },
+        "vusers.session_length": {
+          "min": 34.2,
+          "max": 2175.8,
+          "count": 11,
+          "p50": 64.7,
+          "median": 64.7,
+          "p75": 252.2,
+          "p90": 1863.5,
+          "p95": 1863.5,
+          "p99": 1863.5,
+          "p999": 1863.5
+        },
+        "http.response_time": {
+          "min": 7,
+          "max": 112,
+          "count": 8,
+          "p50": 10.1,
+          "median": 10.1,
+          "p75": 10.1,
+          "p90": 10.1,
+          "p95": 10.1,
+          "p99": 10.1,
+          "p999": 10.1
+        },
+        "latency_metrics.response_time.//community/welcome": {
+          "min": 7,
+          "max": 112,
+          "count": 8,
+          "p50": 10.1,
+          "median": 10.1,
+          "p75": 10.1,
+          "p90": 10.1,
+          "p95": 10.1,
+          "p99": 10.1,
+          "p999": 10.1
+        }
+      },
+      "histograms": {
+        "browser.page.TTFB.https://playwright.dev/": {
+          "min": 8.4,
+          "max": 80,
+          "count": 5,
+          "p50": 8.4,
+          "median": 8.4,
+          "p75": 74.4,
+          "p90": 74.4,
+          "p95": 74.4,
+          "p99": 74.4,
+          "p999": 74.4
+        },
+        "browser.page.FCP.https://playwright.dev/": {
+          "min": 158.2,
+          "max": 158.2,
+          "count": 1,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "browser.page.LCP.https://playwright.dev/": {
+          "min": 158.2,
+          "max": 158.2,
+          "count": 1,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "browser.page.FID.https://playwright.dev/docs/intro": {
+          "min": 10.7,
+          "max": 10.7,
+          "count": 1,
+          "p50": 10.7,
+          "median": 10.7,
+          "p75": 10.7,
+          "p90": 10.7,
+          "p95": 10.7,
+          "p99": 10.7,
+          "p999": 10.7
+        },
+        "browser.page.CLS.https://playwright.dev/docs/intro": {
+          "min": 0,
+          "max": 0,
+          "count": 1,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        },
+        "vusers.session_length": {
+          "min": 34.2,
+          "max": 2175.8,
+          "count": 11,
+          "p50": 64.7,
+          "median": 64.7,
+          "p75": 252.2,
+          "p90": 1863.5,
+          "p95": 1863.5,
+          "p99": 1863.5,
+          "p999": 1863.5
+        },
+        "http.response_time": {
+          "min": 7,
+          "max": 112,
+          "count": 8,
+          "p50": 10.1,
+          "median": 10.1,
+          "p75": 10.1,
+          "p90": 10.1,
+          "p95": 10.1,
+          "p99": 10.1,
+          "p999": 10.1
+        },
+        "latency_metrics.response_time.//community/welcome": {
+          "min": 7,
+          "max": 112,
+          "count": 8,
+          "p50": 10.1,
+          "median": 10.1,
+          "p75": 10.1,
+          "p90": 10.1,
+          "p95": 10.1,
+          "p99": 10.1,
+          "p999": 10.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "browser.http_requests": 399,
+        "vusers.failed": 0,
+        "vusers.completed": 6
+      },
+      "rates": {},
+      "firstCounterAt": 1690964690873,
+      "firstHistogramAt": 1690964691146,
+      "lastCounterAt": 1690964699980,
+      "lastHistogramAt": 1690964699977,
+      "firstMetricAt": 1690964690873,
+      "lastMetricAt": 1690964699980,
+      "period": "1690964690000",
+      "summaries": {
+        "browser.page.TTFB.https://playwright.dev/": {
+          "min": 7.6,
+          "max": 91.3,
+          "count": 12,
+          "p50": 34.8,
+          "median": 34.8,
+          "p75": 79.1,
+          "p90": 83.9,
+          "p95": 90.9,
+          "p99": 90.9,
+          "p999": 90.9
+        },
+        "vusers.session_length": {
+          "min": 12115.3,
+          "max": 14107.6,
+          "count": 6,
+          "p50": 12711.5,
+          "median": 12711.5,
+          "p75": 12968.3,
+          "p90": 13230.3,
+          "p95": 13230.3,
+          "p99": 13230.3,
+          "p999": 13230.3
+        },
+        "browser.page.FCP.https://playwright.dev/": {
+          "min": 216.3,
+          "max": 1397.1,
+          "count": 8,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 450.4,
+          "p90": 671.9,
+          "p95": 671.9,
+          "p99": 671.9,
+          "p999": 671.9
+        },
+        "browser.page.LCP.https://playwright.dev/": {
+          "min": 216.3,
+          "max": 447.6,
+          "count": 6,
+          "p50": 290.1,
+          "median": 290.1,
+          "p75": 441.5,
+          "p90": 441.5,
+          "p95": 441.5,
+          "p99": 441.5,
+          "p999": 441.5
+        },
+        "browser.page.CLS.https://playwright.dev/": {
+          "min": 0,
+          "max": 0,
+          "count": 2,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        },
+        "browser.page.FID.https://playwright.dev/docs/intro": {
+          "min": 10.1,
+          "max": 37.3,
+          "count": 4,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 25.3,
+          "p90": 25.3,
+          "p95": 25.3,
+          "p99": 25.3,
+          "p999": 25.3
+        },
+        "browser.page.CLS.https://playwright.dev/docs/intro": {
+          "min": 0,
+          "max": 0,
+          "count": 4,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        }
+      },
+      "histograms": {
+        "browser.page.TTFB.https://playwright.dev/": {
+          "min": 7.6,
+          "max": 91.3,
+          "count": 12,
+          "p50": 34.8,
+          "median": 34.8,
+          "p75": 79.1,
+          "p90": 83.9,
+          "p95": 90.9,
+          "p99": 90.9,
+          "p999": 90.9
+        },
+        "vusers.session_length": {
+          "min": 12115.3,
+          "max": 14107.6,
+          "count": 6,
+          "p50": 12711.5,
+          "median": 12711.5,
+          "p75": 12968.3,
+          "p90": 13230.3,
+          "p95": 13230.3,
+          "p99": 13230.3,
+          "p999": 13230.3
+        },
+        "browser.page.FCP.https://playwright.dev/": {
+          "min": 216.3,
+          "max": 1397.1,
+          "count": 8,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 450.4,
+          "p90": 671.9,
+          "p95": 671.9,
+          "p99": 671.9,
+          "p999": 671.9
+        },
+        "browser.page.LCP.https://playwright.dev/": {
+          "min": 216.3,
+          "max": 447.6,
+          "count": 6,
+          "p50": 290.1,
+          "median": 290.1,
+          "p75": 441.5,
+          "p90": 441.5,
+          "p95": 441.5,
+          "p99": 441.5,
+          "p999": 441.5
+        },
+        "browser.page.CLS.https://playwright.dev/": {
+          "min": 0,
+          "max": 0,
+          "count": 2,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        },
+        "browser.page.FID.https://playwright.dev/docs/intro": {
+          "min": 10.1,
+          "max": 37.3,
+          "count": 4,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 25.3,
+          "p90": 25.3,
+          "p95": 25.3,
+          "p99": 25.3,
+          "p999": 25.3
+        },
+        "browser.page.CLS.https://playwright.dev/docs/intro": {
+          "min": 0,
+          "max": 0,
+          "count": 4,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        }
+      }
+    }
+  ]
+}

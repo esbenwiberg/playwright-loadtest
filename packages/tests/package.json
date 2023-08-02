@@ -1,0 +1,23 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "barrels": "barrelsby --delete",
+    "build": "tsc -p tsconfig.json",
+    "test": "playwright test",
+    "install": "playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.27.1"
+  },
+  "dependencies": {
+    "barrelsby": "~2.5.1",
+    "typescript": "~5.0.2",
+    "@types/node": "~18.15.3"
+  }
+}
